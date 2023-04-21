@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="arrow-left" transform="translate(-684 -188)">
+    <path id="Union_24" data-name="Union 24" d="M16851.287,21333.076l-6.07-6.072a.759.759,0,0,1,0-1.059l6.07-6.072a.757.757,0,0,1,1.061,0,.746.746,0,0,1,0,1.061l-4.787,4.791h15.189a.75.75,0,0,1,0,1.5h-15.189l4.787,4.791a.749.749,0,0,1-.529,1.279A.772.772,0,0,1,16851.287,21333.076Z" transform="translate(-16158.25 -21126.475)" fill="#4e5d78"/>
+    <path id="Vector" d="M0,0H24V24H0Z" transform="translate(708 212) rotate(180)" fill="none" opacity="0"/>
+  </g>
+</svg>

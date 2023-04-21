@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="fullscreen_exit-24px" transform="translate(12 12)">
+    <g id="fullscreen_exit-24px-2" data-name="fullscreen_exit-24px" transform="translate(-12 -12)">
+      <path id="Path_7088" data-name="Path 7088" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_7089" data-name="Path 7089" d="M6,16H8v2a1,1,0,0,0,2,0V15a1,1,0,0,0-1-1H6a1,1,0,0,0,0,2ZM8,8H6a1,1,0,0,0,0,2H9a1,1,0,0,0,1-1V6A1,1,0,0,0,8,6Zm7,11a1,1,0,0,0,1-1V16h2a1,1,0,0,0,0-2H15a1,1,0,0,0-1,1v3A1,1,0,0,0,15,19ZM16,8V6a1,1,0,0,0-2,0V9a1,1,0,0,0,1,1h3a1,1,0,0,0,0-2Z"/>
+    </g>
+  </g>
+</svg>

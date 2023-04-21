@@ -1,0 +1,6 @@
+<svg id="export" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="export-2" data-name="export" transform="translate(-492 -444)">
+    <path id="Union_76" data-name="Union 76" d="M16466.332,21658.984a8.872,8.872,0,0,1-2.332-6.176.75.75,0,0,1,1.5,0,7.249,7.249,0,1,0,14.5,0,.751.751,0,0,1,1.5,0,8.872,8.872,0,0,1-2.332,6.176,9.277,9.277,0,0,1-12.836,0Zm5.545-4v-8.422l-1.277,1.273a.75.75,0,0,1-1.061-1.061l2.561-2.561a.757.757,0,0,1,1.061,0l2.561,2.561a.75.75,0,1,1-1.061,1.061l-1.283-1.283v8.432a.75.75,0,1,1-1.5,0Z" transform="translate(-15968.75 -21196.811)" fill="#4e5d78"/>
+    <path id="Vector" d="M0,0H24V24H0Z" transform="translate(516 468) rotate(180)" fill="none" opacity="0"/>
+  </g>
+</svg>
