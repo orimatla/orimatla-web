@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/"/>
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A Social Network Crypto.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="flutter_profile">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="icons/Icon-512.png">
+
+  <!-- Main Favicon -->
+  <link rel="icon" type="image/pg" href="favicon/png"/>
+
+  <!-- ALTERNATIVE <link rel="icon" type="image/x-icon" href="favicon.ico" /> -->
+
+  <title>Orimatla</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" type="text/css" href="splash/style.css">
+  <script src="splash/splash.js"></script>
+</head>
+<body>
+  <picture id="splash">
+    <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x" media="(prefers-color-scheme: light)">
+    <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x" media="(prefers-color-scheme: dark)">
+    <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt=""/>
+  </picture>
+  <script>
+    if (location.hostname === "localhost") {
+      self.FIREBASE_APPCHECK_DEBUG_TOKEN = true;
+    }
+  </script>
+  <!-- <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js";    
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAQ_rFL-79fxI4MI0mx3wE5hrTo3vogmag",
+      authDomain: "orimatla-io.firebaseapp.com",
+      projectId: "orimatla-io",
+      storageBucket: "orimatla-io.appspot.com",
+      messagingSenderId: "426924300878",
+      appId: "1:426924300878:web:a3e33ffd6d9d9d7bb4411f",
+      measurementId: "G-95Q3V00VLN"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);    
+    const analytics = getAnalytics(app);
+  </script> -->
+  <script src="main.dart.js" type="application/javascript"></script>
+  <!-- <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        // navigator.serviceWorker.register("/flutter_service_worker.js");
+        navigator.serviceWorker.register("/firebase-messaging-sw.js").then(function(registration) {
+          console.log("Registration successful, scope is:", registration.scope);
+        })
+        .catch(function(err) {
+          console.log("Service worker registration failed, error:", err);
+        });;
+      });
+    }
+  </script> -->
+  </body>
+</html>
